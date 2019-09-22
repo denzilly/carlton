@@ -1,0 +1,238 @@
+1569167573667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewjoIjc"
+Gtk-Message: 17:52:53.803: Failed to load module "appmenu-gtk-module"
+1569167574234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569167574234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569167574234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569167574234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:10183): GLib-GIO-WARNING **: 17:52:54.439: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 17:52:54.934: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:52:55.103: Failed to load module "appmenu-gtk-module"
+1569167576054	Marionette	INFO	Listening on port 42289
+Gtk-Message: 17:52:56.060: Failed to load module "appmenu-gtk-module"
+1569167576089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569167579694	Marionette	INFO	Stopped listening on port 42289
+1569167662722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenxF5OZ"
+Gtk-Message: 17:54:22.887: Failed to load module "appmenu-gtk-module"
+1569167663315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569167663316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569167663316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569167663316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:10499): GLib-GIO-WARNING **: 17:54:23.519: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 17:54:24.007: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:54:24.169: Failed to load module "appmenu-gtk-module"
+1569167665092	Marionette	INFO	Listening on port 38831
+Gtk-Message: 17:54:25.134: Failed to load module "appmenu-gtk-module"
+1569167665144	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168333372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3EtH9B"
+Gtk-Message: 18:05:33.508: Failed to load module "appmenu-gtk-module"
+1569168333934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569168333934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569168333935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569168333935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:11024): GLib-GIO-WARNING **: 18:05:34.134: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:05:34.623: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:05:34.797: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:05:35.730: Failed to load module "appmenu-gtk-module"
+1569168335732	Marionette	INFO	Listening on port 44705
+1569168335781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168353164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyQRioK"
+Gtk-Message: 18:05:53.297: Failed to load module "appmenu-gtk-module"
+1569168353727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569168353727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569168353727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569168353728	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:11265): GLib-GIO-WARNING **: 18:05:53.920: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:05:54.417: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:05:54.573: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:05:55.552: Failed to load module "appmenu-gtk-module"
+1569168355571	Marionette	INFO	Listening on port 35459
+1569168355672	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168514382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZXOwZv"
+Gtk-Message: 18:08:34.497: Failed to load module "appmenu-gtk-module"
+1569168514987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569168514987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569168514988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569168514988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:11648): GLib-GIO-WARNING **: 18:08:35.199: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:08:35.747: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:08:35.944: Failed to load module "appmenu-gtk-module"
+1569168516995	Marionette	INFO	Listening on port 36757
+Gtk-Message: 18:08:36.999: Failed to load module "appmenu-gtk-module"
+1569168517013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168914284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex3yOlf"
+Gtk-Message: 18:15:14.400: Failed to load module "appmenu-gtk-module"
+1569168914841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569168914841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569168914841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569168914841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12143): GLib-GIO-WARNING **: 18:15:15.036: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:15:15.522: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:15:15.688: Failed to load module "appmenu-gtk-module"
+1569168916675	Marionette	INFO	Listening on port 44231
+Gtk-Message: 18:15:16.683: Failed to load module "appmenu-gtk-module"
+1569168916702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168948093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefwn2i6"
+Gtk-Message: 18:15:48.200: Failed to load module "appmenu-gtk-module"
+1569168948620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569168948620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569168948621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569168948621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12390): GLib-GIO-WARNING **: 18:15:48.814: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:15:49.304: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:15:49.454: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:15:50.426: Failed to load module "appmenu-gtk-module"
+1569168950459	Marionette	INFO	Listening on port 38043
+1569168950501	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569168964713	Marionette	INFO	Stopped listening on port 38043
+1569169174571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3WYEQc"
+Gtk-Message: 18:19:34.669: Failed to load module "appmenu-gtk-module"
+1569169175103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569169175103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569169175103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569169175103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12733): GLib-GIO-WARNING **: 18:19:35.296: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:19:35.790: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:19:35.952: Failed to load module "appmenu-gtk-module"
+1569169176865	Marionette	INFO	Listening on port 32795
+1569169176902	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 18:19:36.912: Failed to load module "appmenu-gtk-module"
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569169185082	Marionette	INFO	Stopped listening on port 32795
+1569169214879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGi6hEi"
+Gtk-Message: 18:20:14.980: Failed to load module "appmenu-gtk-module"
+1569169215406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569169215406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569169215406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569169215407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:12980): GLib-GIO-WARNING **: 18:20:15.603: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:20:16.100: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:20:16.260: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:20:17.224: Failed to load module "appmenu-gtk-module"
+1569169217251	Marionette	INFO	Listening on port 38009
+1569169217289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569169219994	Marionette	INFO	Stopped listening on port 38009
+1569169875950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKNaYuB"
+Gtk-Message: 18:31:16.065: Failed to load module "appmenu-gtk-module"
+1569169876517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569169876517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569169876517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569169876517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13644): GLib-GIO-WARNING **: 18:31:16.712: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:31:17.208: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:31:17.370: Failed to load module "appmenu-gtk-module"
+1569169878298	Marionette	INFO	Listening on port 39373
+Gtk-Message: 18:31:18.342: Failed to load module "appmenu-gtk-module"
+1569169878367	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569169901224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWtekZz"
+Gtk-Message: 18:31:41.325: Failed to load module "appmenu-gtk-module"
+1569169901750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569169901750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569169901750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569169901751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:13885): GLib-GIO-WARNING **: 18:31:41.942: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:31:42.451: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:31:42.595: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:31:43.592: Failed to load module "appmenu-gtk-module"
+1569169903606	Marionette	INFO	Listening on port 38055
+1569169903636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569169906233	Marionette	INFO	Stopped listening on port 38055
+1569169976649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYgXlOx"
+Gtk-Message: 18:32:56.812: Failed to load module "appmenu-gtk-module"
+1569169977242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569169977242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569169977243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569169977243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:14147): GLib-GIO-WARNING **: 18:32:57.440: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:32:57.929: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:32:58.099: Failed to load module "appmenu-gtk-module"
+1569169979034	Marionette	INFO	Listening on port 45439
+1569169979069	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 18:32:59.072: Failed to load module "appmenu-gtk-module"
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569169981806	Marionette	INFO	Stopped listening on port 45439
+1569170011474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKmMxVu"
+Gtk-Message: 18:33:31.677: Failed to load module "appmenu-gtk-module"
+1569170012142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569170012142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569170012143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569170012143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:14395): GLib-GIO-WARNING **: 18:33:32.343: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:33:32.841: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:33:33.017: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:33:33.983: Failed to load module "appmenu-gtk-module"
+1569170014032	Marionette	INFO	Listening on port 45933
+1569170014086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569170016927	Marionette	INFO	Stopped listening on port 45933
+1569170042143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ15QGQ"
+Gtk-Message: 18:34:02.273: Failed to load module "appmenu-gtk-module"
+1569170042734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569170042734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569170042735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569170042735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:14641): GLib-GIO-WARNING **: 18:34:02.934: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 18:34:03.429: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:34:03.594: Failed to load module "appmenu-gtk-module"
+1569170044564	Marionette	INFO	Listening on port 42303
+Gtk-Message: 18:34:04.570: Failed to load module "appmenu-gtk-module"
+1569170044654	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569170047474	Marionette	INFO	Stopped listening on port 42303
+[Parent 11265, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/src/firefox-69.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 11265, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/src/firefox-69.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 11265, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/src/firefox-69.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1569174507395	Marionette	INFO	Stopped listening on port 35459
+1569174913629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNa8t6U"
+Gtk-Message: 19:55:13.820: Failed to load module "appmenu-gtk-module"
+1569174914244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569174914244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569174914245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569174914245	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:17123): GLib-GIO-WARNING **: 19:55:14.445: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 19:55:14.939: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 19:55:15.108: Failed to load module "appmenu-gtk-module"
+1569174916225	Marionette	INFO	Listening on port 32935
+Gtk-Message: 19:55:16.227: Failed to load module "appmenu-gtk-module"
+1569174916257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js, line 1: TypeError: t is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.nl.min.js, line 1: ReferenceError: jQuery is not defined
+1569174920071	Marionette	INFO	Stopped listening on port 32935
