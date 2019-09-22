@@ -36,3 +36,8 @@ This is a simple bot to vote for Carlton's favorite song in an online radio cont
 |Captcha solver 3: Test number recogniser|Bart & Glenn|Tensorflow, need beefy GPU|Planning||
 |Captcha solver 4: Implement|Bart|Python|||
 |Web Driver|Bart|Python with Selenium|Working Prototype||
+
+
+
+
+### Number Recognition Model Plan
