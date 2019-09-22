@@ -14,6 +14,15 @@ This is a simple bot to vote for Carlton's favorite song in an online radio cont
 * Use openCV to decode a number captcha
 
 
+### Questions
+
+- Use real addresses or fake ones?
+- Maybe don't even bother with tempmail, and just make fake emails using the names we generate, since it doesn't seem as if they verify them anyway
+- Do we want to add a little note in the 'toelichting' to make it seem more legit?
+- Do we stop voting at night? (who the fuck is voting in a radio contest at 4.30am)
+- I can also add random timing to keystrokes to make it seem more legit, but I think this is overkill.
+
+
 
 #### Todo
 |What|Who|How|Done?|Notes|
