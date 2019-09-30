@@ -5,43 +5,53 @@ import image_slicer
 from PIL import Image
 import os
 
+from csvconverter_slices import img_to_csv
+
+import numpy as np
+import matplotlib.pyplot as pt
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+
+
 #os.chdir("/home/bart/programming/carlton")
 
 print (os.getcwd())
 ### This function collects the captcha, and splits it into 6 separate images, eacht with a neutral gray background
 
-def collect_slices():
-
-    options = webdriver.FirefoxOptions()
-    options.add_argument("--start-maximized")
 
 
 
-    driver = webdriver.Firefox(firefox_options=options)
-    driver.get("https://www.rtvutrecht.nl/formulier/top100/")
-    driver.maximize_window()
-    driver.execute_script("window.scrollTo(0, 500)")
+def predict_captcha():
+    training_data = pd.read_csv("data/training_data/train_converted_label.csv").as_matrix()
+    testing_data = pd.read_csv("data/captcha_slices/testdata.csv").as_matrix()
+    clf = DecisionTreeClassifier()
 
 
-    time.sleep(1)
+    xtrain = training_data[:600,1:]
+    train_label = training_data[:600,0]
+
+    clf.fit(xtrain,train_label)
 
 
-    im = ImageGrab.grab(bbox=(2337,493,2385,511)).convert('RGB')
+    xtest = training_data[400:,1:]
+    test_label = training_data[400:,0]
 
-    im.save("captcha_full.png")
-    bg = Image.open("data/resources/bg.png").convert('LA')
+    captcha = testing_data[:,1:]
 
 
-    for x in range (1,7):
-        x_bound = (x-1) * 8
 
-        crop = im.crop((x_bound,0,x_bound + 8,18))
-        name = "slice_" + str(x) + ".png"
-        print(name)
+    p = clf.predict(captcha)
+    captcha = ""
+    for x in p:
+        captcha += str(x)
 
-        back_im = bg.copy()
-        back_im.paste(crop, (10,5))
-        back_im.save("data/captcha_slices/" + name)
+    print(captcha)
+    return captcha
 
-    time.sleep(3)
-    driver.close()
+
+def solve_captcha():
+
+    img_to_csv()
+    captcha = predict_captcha()
+
+    return captcha
