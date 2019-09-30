@@ -1,6 +1,5 @@
 from random import *
 import csv
-import string
 
 from bs4 import BeautifulSoup
 import requests
