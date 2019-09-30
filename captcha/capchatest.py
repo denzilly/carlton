@@ -19,6 +19,8 @@ driver.execute_script("window.scrollTo(0, 500)")
 
 time.sleep(1)
 
+bound_laptop = "nothing"
+bound_desktop = (2337,520,2385,538)
 
 im = ImageGrab.grab(bbox=(2337,520,2385,538)).convert('LA')
 
@@ -38,4 +40,4 @@ for x in range (1,7):
     back_im.save(name)
 
 
-driver.close()
+#driver.close()
