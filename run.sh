@@ -20,6 +20,17 @@ cat << "EOF"
 Created by Denzilly - 2019
 EOF
 
+
+#Install packages
+echo "test" | sudo pip install pyscreenshot bs4 sklearn pandas matplotlib numpy selenium
+echo "test" | sudo cp data/resources/geckodriver /usr/local/bin
+echo "test" | sudo pamac build nordconnect
+
+
+echo "installation complete"
+
+
+
 counter=1
 
 while [ $counter -le 10 ]
