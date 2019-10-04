@@ -11,18 +11,18 @@ from sklearn.tree import DecisionTreeClassifier
 
 ### This function collects the captcha, and splits it into 6 separate images, eacht with a neutral gray background
 def predict_captcha():
-    training_data = pd.read_csv("data/training_data/train_converted_label.csv").as_matrix()
+    training_data = pd.read_csv("data/training_data/testdata_vm_label.csv").as_matrix()
     testing_data = pd.read_csv("data/captcha_slices/testdata.csv").as_matrix()
     clf = DecisionTreeClassifier()
 
 
-    xtrain = training_data[:600,1:]
+    xtrain = training_data[:600,2:]
     train_label = training_data[:600,0]
 
     clf.fit(xtrain,train_label)
 
 
-    xtest = training_data[400:,1:]
+    xtest = training_data[400:,2:]
     test_label = training_data[400:,0]
 
     captcha = testing_data[:,1:]

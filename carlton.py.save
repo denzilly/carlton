@@ -18,7 +18,8 @@ from PIL import Image
 
 ###########List of XPaths#############
 cookie   = "/html/body/app-root/app-theme/div/div/app-home/div/div/div[2]/div[2]/div[2]/div[2]/button/span/b"
-cookie2  = "/html/body/app-root/app-theme/div/div/app-home/div/div/div[2]/div[2]/div[2]/div[2]"
+
+
 name_field     = "/html/body/div[2]/main/div/div/section/article/form/div[1]/div/input"
 address_field  =   "/html/body/div[2]/main/div/div/section/article/form/div[2]/div/input"
 postcode_field =  "/html/body/div[2]/main/div/div/section/article/form/div[3]/div/input"
@@ -28,6 +29,8 @@ email_field    = "/html/body/div[2]/main/div/div/section/article/form/div[6]/div
 choice_field   = "/html/body/div[2]/main/div/div/section/article/form/div[7]/div/div/select"
 captcha_field  = "//*[@id=\"code\"]"
 send = "/html/body/div[2]/main/div/div/section/article/form/div[11]/div/button"
+
+
 
 ###########Get Personal Information################
 
@@ -58,8 +61,7 @@ driver.get("https://www.rtvutrecht.nl/formulier/top100/")
 ##### Collect Captcha Slices
 driver.maximize_window()
 driver.execute_script("window.scrollTo(0, 500)")
-time.sleep(5)
-#driver.find_element_by_xpath(cookie2).click()
+driver.find_element_by_xpath(cookie).click()
 
 time.sleep(1)
 
