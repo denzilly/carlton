@@ -29,7 +29,7 @@ def collect(loops):
     bound_laptop = "nothing"
     bound_desktop = (2337,520,2385,538)
 
-    im = ImageGrab.grab(bbox=(2337,493,2385,511)).convert('RGB')
+    im = ImageGrab.grab(bbox=(661,487,709,505)).convert('RGB')
 
     im.save("captcha_full.png")
     bg = Image.open("bg.png").convert('LA')
@@ -46,7 +46,7 @@ def collect(loops):
         back_im.paste(crop, (10,5))
         back_im.save("collected/" + name)
 
-    
+
     driver.close()
 
 
