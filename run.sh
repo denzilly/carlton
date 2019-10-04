@@ -80,6 +80,7 @@ do
   echo test | sudo -b nordconnect ${vpns[$counter]}
   echo "Connection Established"
   echo "Running Carlton"
+  sleep 5
   echo test | sudo python carlton.py
 
 

@@ -4,16 +4,16 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
 
-data=pd.read_csv("data/training_data/train_converted_label.csv").as_matrix()
+data=pd.read_csv("/home/bart/programming/carlton/data/training_data/testdata_vm_raw.csv").as_matrix()
 clf = DecisionTreeClassifier()
 
 
-xtrain = data[0:500,1:]
+xtrain = data[0:500,2:]
 train_label = data[0:500,0]
 
 clf.fit(xtrain,train_label)
 
-xtest = data[500:,1:]
+xtest = data[500:,2:]
 test_label = data[500:,0]
 
 

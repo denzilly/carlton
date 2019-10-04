@@ -112,7 +112,7 @@ def get_address():
             num = d[len(d)-2:len(d)]
             e = d[2].split("%")
 
-            street = e[0] + " " + str(e[1][2:4])
+            street = e[0] + " " + str(e[1][2:3])
 
 
             break
