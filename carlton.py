@@ -20,17 +20,30 @@ from PIL import Image
 ###########List of XPaths#############
 cookie   = "/html/body/app-root/app-theme/div/div/app-home/div/div/div[2]/div[2]/div[2]/div[2]/button/span/b"
 cookie2  = "/html/body/app-root/app-theme/div/div/app-home/div/div/div[2]/div[2]/div[2]/div[2]"
+
+
 name_field     = "/html/body/div[2]/main/div/div/section/article/form/div[1]/div/input"
 address_field  =   "/html/body/div[2]/main/div/div/section/article/form/div[2]/div/input"
 postcode_field =  "/html/body/div[2]/main/div/div/section/article/form/div[3]/div/input"
 city_field     = "/html/body/div[2]/main/div/div/section/article/form/div[4]/div/input"
 phone_field    = "/html/body/div[2]/main/div/div/section/article/form/div[5]/div/input"
 email_field    = "/html/body/div[2]/main/div/div/section/article/form/div[6]/div/input"
+
+name_field2     = "/html/body/div[1]/main/div/div/section/article/form/div[1]/div/input"
+address_field2  =   "/html/body/div[1]/main/div/div/section/article/form/div[2]/div/input"
+postcode_field2 =  "/html/body/div[1]/main/div/div/section/article/form/div[3]/div/input"
+city_field2     = "/html/body/div[1]/main/div/div/section/article/form/div[4]/div/input"
+phone_field2    = "/html/body/div[1]/main/div/div/section/article/form/div[5]/div/input"
+email_field2    = "/html/body/div[1]/main/div/div/section/article/form/div[6]/div/input"
+
+
 choice_field   = "/html/body/div[2]/main/div/div/section/article/form/div[7]/div/div/select"
 choice_field2  = "/html/body/div[1]/main/div/div/section/article/form/div[7]/div/div/select"
-choice_field3  = "/html/body/div[1]/main/div/div/section/article/form/div[7]/div/div/select"
+
 
 captcha_field  = "//*[@id=\"code\"]"
+captcha_field2 = "//*[@id=\"code\"]"
+
 send = "/html/body/div[2]/main/div/div/section/article/form/div[11]/div/button"
 send2 = "/html/body/div[1]/main/div/div/section/article/form/div[11]/div/button"
 
@@ -104,13 +117,24 @@ except NoSuchElementException:
     dropdown = Select(driver.find_element_by_xpath(choice_field))
 
 time.sleep(3)
-enter(name_field, name_mail[0])
-enter(address_field, address[0])
-enter(postcode_field, address[1])
-enter(city_field, address[2])
-enter(phone_field, phone)
-enter(email_field, name_mail[1])
-enter(captcha_field, captcha)
+
+try:
+    enter(name_field, name_mail[0])
+    enter(address_field, address[0])
+    enter(postcode_field, address[1])
+    enter(city_field, address[2])
+    enter(phone_field, phone)
+    enter(email_field, name_mail[1])
+    enter(captcha_field, captcha)
+
+except NoSuchElementException:
+    enter(name_field2, name_mail[0])
+    enter(address_field2, address[0])
+    enter(postcode_field2, address[1])
+    enter(city_field2, address[2])
+    enter(phone_field2, phone)
+    enter(email_field2, name_mail[1])
+    enter(captcha_field, captcha)
 
 dropdown.select_by_value('23070')
 

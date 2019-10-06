@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
+GOLD='\033[1;33m'
+NC='\033[0m'
 
 
 ### RUN NORDVPN LOGIN TO ENTER CREDENTIALS ###
@@ -61,8 +62,11 @@ while true; do
 
 done
 
-
+echo "How many votes would  you like to attempt? (max 5000, for now)"
+read votes 
 counter=1
+echo "Where would you like to start in the vpn list (1-5000)?"
+read vpnstart
 
 #Initialise an array of all entries in ovpn_udp
 vpns=()
@@ -80,18 +84,20 @@ nordvpn d
 
 
 #The loop
-while [ $counter -le 10 ]
+while [ $counter -le $votes ]
 
 do
 
-  echo "#####    Connecting to a VPN    ####"
+  echo "#####    Connecting to a VPN with IP:   ####"
 
   #Let's select a VPN!
   curl ifconfig.me
 
 
+
+
   #Connect to a VPN from the list
-  nordvpn connect ${vpns[$counter]}
+  nordvpn connect ${vpns[$vpnstart]}
   echo "####    Connection Established    ####"
   echo "####    Running Carlton    ####"
   sleep 5
@@ -109,4 +115,5 @@ do
 
   echo $counter votes completed this session
   counter=$((counter+1))
+  vpnstart=$((vpnstart+1))
 done
