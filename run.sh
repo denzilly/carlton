@@ -14,7 +14,7 @@ cat << "EOF"
 ██║     ███████║██████╔╝██║     ██║   ██║   ██║██╔██╗ ██║
 ██║     ██╔══██║██╔══██╗██║     ██║   ██║   ██║██║╚██╗██║
 ╚██████╗██║  ██║██║  ██║███████╗██║   ╚██████╔╝██║ ╚████║
-╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚═════╝ ╚═╝  ╚═══╝
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝    ╚═════╝ ╚═╝  ╚═══╝
        -----It's not unusual to be strange-----
 
 Created by Denzilly - 2019
@@ -37,6 +37,18 @@ while true; do
     echo "test" | sudo pip install pyscreenshot bs4 sklearn pandas matplotlib numpy selenium
     echo "test" | sudo cp data/resources/geckodriver /usr/local/bin
     echo "test" | sudo pamac build nordconnect
+    
+    cwd=$(pwd)
+
+    echo "test" | sudo pacman -S openvpn
+    cd /etc/openvpn
+    echo "test" | sudo wget https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip
+    echo "test" | sudo unzip ovpn.zip
+    echo "test" | sudo rm ovpn.zip
+
+    cd $cwd
+
+
 
     echo "Installation Complete"
     break
@@ -47,8 +59,9 @@ while true; do
     echo "Please enter Y/N"
 
 
+  fi
 
-
+done
 
 
 counter=1
@@ -62,7 +75,7 @@ do
     vpns+=("${strarr[0]}")
 done
 
-
+echo test | sudo nordconnect --init
 
 
 #The loop
@@ -70,8 +83,8 @@ while [ $counter -le 10 ]
 
 do
 
-  echo "lets go"
-  read varname
+  echo "Connecting to a VPN"
+
   #Let's select a VPN!
 
 
@@ -93,3 +106,4 @@ do
 
 
   echo $counter loops completed
+done
