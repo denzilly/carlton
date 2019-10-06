@@ -7,6 +7,8 @@
 #do it again!
 
 
+### RUN NORDCONNECT --INIT FIRST WITH YOUR CREDENTIALS!! ###
+
 cat << "EOF"
 
  ██████╗ █████╗ ██████╗ ██╗  ████████╗ ██████╗ ███╗   ██╗
@@ -75,7 +77,7 @@ do
     vpns+=("${strarr[0]}")
 done
 
-echo test | sudo nordconnect --init
+#echo test | sudo nordconnect --init
 
 
 #The loop
@@ -86,7 +88,7 @@ do
   echo "Connecting to a VPN"
 
   #Let's select a VPN!
-
+  curl ifconfig.me
 
 
   #Connect to a VPN from the list
@@ -94,7 +96,8 @@ do
   echo "Connection Established"
   echo "Running Carlton"
   sleep 5
-  echo test | sudo python carlton.py
+  curl ifconfig.me
+  python carlton.py
 
 
 
@@ -106,4 +109,5 @@ do
 
 
   echo $counter loops completed
+  counter=$((counter+1))
 done
