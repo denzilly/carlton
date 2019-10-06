@@ -1,13 +1,9 @@
 #!/bin/bash
 
-#What does it need to do?
-#connect to openvpn using my credentials
-#start the SCRIPT
-#Wait a little bit
-#do it again!
 
 
-### RUN NORDCONNECT --INIT FIRST WITH YOUR CREDENTIALS!! ###
+
+### RUN NORDVPN LOGIN TO ENTER CREDENTIALS ###
 
 cat << "EOF"
 
@@ -26,7 +22,7 @@ EOF
 
 
 
-echo "Would you like to run the package installer? (Y/N)"
+echo "####    Would you like to run the package installer? (Y/N)    ####"
 #read install
 
 ### RUN INSTALLER####
@@ -52,13 +48,13 @@ while true; do
 
 
 
-    echo "Installation Complete"
+    echo "####    Installation Complete    ####"
     break
   elif [ "$install" == "N" ] || [ "$install" == "n" ]; then
-    echo "continue as normal"
+    echo "####    Continue as normal    ####"
     break
   else
-    echo "Please enter Y/N"
+    echo "####    Please enter Y/N    ####"
 
 
   fi
@@ -77,7 +73,10 @@ do
     vpns+=("${strarr[0]}")
 done
 
-#echo test | sudo nordconnect --init
+echo test | sudo systemctl enable nordvpnd.service
+echo test | sudo systemctl start nordvpnd.service
+nordvpn login
+nordvpn d
 
 
 #The loop
@@ -85,16 +84,16 @@ while [ $counter -le 10 ]
 
 do
 
-  echo "Connecting to a VPN"
+  echo "#####    Connecting to a VPN    ####"
 
   #Let's select a VPN!
   curl ifconfig.me
 
 
   #Connect to a VPN from the list
-  echo test | sudo -b nordconnect ${vpns[$counter]}
-  echo "Connection Established"
-  echo "Running Carlton"
+  nordvpn connect ${vpns[$counter]}
+  echo "####    Connection Established    ####"
+  echo "####    Running Carlton    ####"
   sleep 5
   curl ifconfig.me
   python carlton.py
@@ -102,12 +101,12 @@ do
 
 
   sleep 5
-  echo "killing now"
+  echo "####    Killing Processes    ####"
   #Disconnect from vpn and kill stray firefox windows
-  sudo killall -SIGINT openvpn
+  nordvpn disconnect
   sudo killall -SIGINT firefox
 
 
-  echo $counter loops completed
+  echo $counter votes completed this session
   counter=$((counter+1))
 done

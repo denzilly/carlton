@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
 
 
 import time
@@ -26,8 +27,13 @@ city_field     = "/html/body/div[2]/main/div/div/section/article/form/div[4]/div
 phone_field    = "/html/body/div[2]/main/div/div/section/article/form/div[5]/div/input"
 email_field    = "/html/body/div[2]/main/div/div/section/article/form/div[6]/div/input"
 choice_field   = "/html/body/div[2]/main/div/div/section/article/form/div[7]/div/div/select"
+choice_field2  = "/html/body/div[1]/main/div/div/section/article/form/div[7]/div/div/select"
+choice_field3  = "/html/body/div[1]/main/div/div/section/article/form/div[7]/div/div/select"
+
 captcha_field  = "//*[@id=\"code\"]"
 send = "/html/body/div[2]/main/div/div/section/article/form/div[11]/div/button"
+send2 = "/html/body/div[1]/main/div/div/section/article/form/div[11]/div/button"
+
 
 ###########Get Personal Information################
 
@@ -39,7 +45,7 @@ address = get_address()
 ################### CAPTCHA ##################
 
 
-
+print("#####    Who are you today, Carlton?   #####")
 print(phone)
 print(name_mail)
 print(address)
@@ -58,7 +64,7 @@ driver.get("https://www.rtvutrecht.nl/formulier/top100/")
 ##### Collect Captcha Slices
 driver.maximize_window()
 driver.execute_script("window.scrollTo(0, 500)")
-time.sleep(5)
+time.sleep(3)
 #driver.find_element_by_xpath(cookie2).click()
 
 time.sleep(1)
@@ -75,7 +81,7 @@ for x in range (1,7):
 
     crop = im.crop((x_bound,0,x_bound + 8,18))
     name = "slice_" + str(x) + ".png"
-    print(name)
+    #print(name)
 
     back_im = bg.copy()
     back_im.paste(crop, (10,5))
@@ -92,9 +98,10 @@ captcha = solve_captcha()
 def enter(field,text):
     driver.find_element_by_xpath(field).send_keys(text)
 
-
-
-dropdown = Select(driver.find_element_by_xpath(choice_field))
+try:
+    dropdown = Select(driver.find_element_by_xpath(choice_field2))
+except NoSuchElementException:
+    dropdown = Select(driver.find_element_by_xpath(choice_field))
 
 time.sleep(3)
 enter(name_field, name_mail[0])
@@ -109,22 +116,14 @@ dropdown.select_by_value('23070')
 
 time.sleep(0.5)
 
-driver.find_element_by_xpath(send).click()
-###### Solve the CAPTCHA #########
+
+try:
+    driver.find_element_by_xpath(send2).click()
+except NoSuchElementException:
+    driver.find_element_by_xpath(send).click()
 
 
-
-
-
-
-
-
-
-
-
-
-
-print("should be done")
+print("Vote Sent")
 
 time.sleep(3)
 #driver.close()

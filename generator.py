@@ -114,7 +114,7 @@ def get_address():
 
             try:
                 number = str(e[1][2:4])
-            except ValueError:
+            except IndexError:
                 number = randint(1,50)
             street = e[0] + " " + str(number)
 
@@ -129,5 +129,5 @@ def get_address():
 
 
     address = [street, postcode, city]
-    print(address)
+    
     return address
