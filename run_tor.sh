@@ -68,10 +68,12 @@ echo "How many votes would  you like to attempt? (max 5000, for now)"
 read votes 
 counter=1
 
+gifview -a carlton.gif &
+
 while [ $counter -le $votes ]
 
 do
-
+  #tor-browser &
   echo "#####    Connecting to a VPN with IP:   ####"
 
 
@@ -80,10 +82,10 @@ do
 
 
 
-  sleep 5
+  sleep 2
   echo "####    Killing Processes    ####"
-    sudo killall -SIGINT firefox
-
+    echo "test" | sudo killall -SIGINT firefox
+    #echo "test" | sudo killall firefox.real
 
   echo $counter votes completed this session
   counter=$((counter+1))

@@ -125,10 +125,10 @@ driver.get("https://www.rtvutrecht.nl/formulier/top100/")
 ##### Collect Captcha Slices
 driver.maximize_window()
 driver.execute_script("window.scrollTo(0, 500)")
-time.sleep(3)
+time.sleep(0.5)
 #driver.find_element_by_xpath(cookie2).click()
 
-time.sleep(1)
+time.sleep(0.5)
 
 
 im = ImageGrab.grab(bbox=(661,487,709,505)).convert('RGB')
@@ -164,7 +164,7 @@ try:
 except NoSuchElementException:
     dropdown = Select(driver.find_element_by_xpath(choice_field))
 
-time.sleep(3)
+time.sleep(0.5)
 
 try:
     enter(name_field, name_mail[0])
@@ -197,5 +197,5 @@ except NoSuchElementException:
 
 print("Vote Sent")
 
-time.sleep(3)
+time.sleep(0.5)
 #driver.close()
