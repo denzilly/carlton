@@ -21,7 +21,7 @@ import pyscreenshot as ImageGrab
 from PIL import Image
 
 
-
+time.sleep(1)
 
 ########## TOR PROXY SETTINGS ###############
 #Shit is getting a little complicated, but we are pressed for time
