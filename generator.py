@@ -90,44 +90,38 @@ def get_name_email():
 def get_address():
 
 
+
+    letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'k', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z',] 
+
+
     count = 0
 
     #Generate a real postcode, which we will use to find a street to live on
-    postcode = str(randint(1000,9999))
+    postcode_getal = str(randint(1000,9999))
+    postcode = str(postcode_getal) + " " + letters[randint(0,24)] + letters[randint(0,24)]
+    
 
 
+    #Select first and last name at random from a list
+    citynum = randint(1,354)
+    streetnum = randint(1,174)
+    def nameget(index, filename):
+        with open(filename) as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=',')
+            rows = [row[0] for idx, row in enumerate(csv_reader) if idx in(index, index)]
 
-    url = "https://www.postcode.nl/zoek/" + postcode
-
-    r = requests.get(url)
-    soup = BeautifulSoup(r.content, "html.parser")
+            return rows
 
 
-    #Scrape an actual streetname from a postcode website
-    for link in soup.find_all('a'):
-        p = str(link.get('href'))
+    #seperate call statements because we need these for the emails
+    city = nameget(citynum,'data/resources/addresses.csv')[0]
+    street = nameget(streetnum,'data/resources/street.csv')[0]
 
-        if p[0] == "s":
-            d = p.split("/")
-            num = d[len(d)-2:len(d)]
-            e = d[2].split("%")
-
-            try:
-                number = str(e[1][2:4])
-            except IndexError:
-                number = randint(1,50)
-            street = e[0] + " " + str(number)
-
-            break
-
-    #Find City Name
-    for row in soup.find_all('td'):
-        count += 1
-        if count == 3:
-            city = row.text.strip()
-            break
+    
 
 
     address = [street, postcode, city]
     
     return address
+
+
